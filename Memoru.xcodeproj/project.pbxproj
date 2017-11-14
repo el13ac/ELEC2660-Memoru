@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94AB56D91FBAEB5D00C0E3A9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AB56D81FBAEB5D00C0E3A9 /* CoreLocation.framework */; };
 		94CA54661FBA41BA001FB461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CA54651FBA41BA001FB461 /* main.m */; };
 		94CA54691FBA41BA001FB461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CA54681FBA41BA001FB461 /* AppDelegate.m */; };
 		94CA546C1FBA41BA001FB461 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CA546B1FBA41BA001FB461 /* ViewController.m */; };
@@ -15,6 +16,10 @@
 		94CA54741FBA41BA001FB461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94CA54721FBA41BA001FB461 /* LaunchScreen.storyboard */; };
 		94CA547F1FBA41BA001FB461 /* MemoruTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CA547E1FBA41BA001FB461 /* MemoruTests.m */; };
 		94CA548A1FBA41BA001FB461 /* MemoruUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CA54891FBA41BA001FB461 /* MemoruUITests.m */; };
+		94CA54991FBA4302001FB461 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CA54981FBA4302001FB461 /* MapKit.framework */; };
+		94CA549D1FBA5D78001FB461 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CA549C1FBA5D78001FB461 /* UserNotificationsUI.framework */; };
+		94CA549F1FBA5D80001FB461 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CA549E1FBA5D80001FB461 /* UserNotifications.framework */; };
+		94CA54A11FBA5D86001FB461 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CA54A01FBA5D86001FB461 /* NotificationCenter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94AB56D81FBAEB5D00C0E3A9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		94CA54611FBA41B9001FB461 /* Memoru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memoru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CA54651FBA41BA001FB461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		94CA54671FBA41BA001FB461 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,10 @@
 		94CA54851FBA41BA001FB461 /* MemoruUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoruUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CA54891FBA41BA001FB461 /* MemoruUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoruUITests.m; sourceTree = "<group>"; };
 		94CA548B1FBA41BA001FB461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94CA54981FBA4302001FB461 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		94CA549C1FBA5D78001FB461 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		94CA549E1FBA5D80001FB461 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		94CA54A01FBA5D86001FB461 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94AB56D91FBAEB5D00C0E3A9 /* CoreLocation.framework in Frameworks */,
+				94CA54A11FBA5D86001FB461 /* NotificationCenter.framework in Frameworks */,
+				94CA549F1FBA5D80001FB461 /* UserNotifications.framework in Frameworks */,
+				94CA549D1FBA5D78001FB461 /* UserNotificationsUI.framework in Frameworks */,
+				94CA54991FBA4302001FB461 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,7 @@
 				94CA547D1FBA41BA001FB461 /* MemoruTests */,
 				94CA54881FBA41BA001FB461 /* MemoruUITests */,
 				94CA54621FBA41B9001FB461 /* Products */,
+				94CA54971FBA4302001FB461 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +154,18 @@
 				94CA548B1FBA41BA001FB461 /* Info.plist */,
 			);
 			path = MemoruUITests;
+			sourceTree = "<group>";
+		};
+		94CA54971FBA4302001FB461 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94AB56D81FBAEB5D00C0E3A9 /* CoreLocation.framework */,
+				94CA54A01FBA5D86001FB461 /* NotificationCenter.framework */,
+				94CA549E1FBA5D80001FB461 /* UserNotifications.framework */,
+				94CA549C1FBA5D78001FB461 /* UserNotificationsUI.framework */,
+				94CA54981FBA4302001FB461 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +235,13 @@
 				TargetAttributes = {
 					94CA54601FBA41B9001FB461 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AJ7P7AN59M;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					94CA54791FBA41BA001FB461 = {
 						CreatedOnToolsVersion = 8.0;
@@ -422,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AJ7P7AN59M;
 				INFOPLIST_FILE = Memoru/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "el13ac-leeds.ac.uk.Memoru";
@@ -433,6 +468,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AJ7P7AN59M;
 				INFOPLIST_FILE = Memoru/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "el13ac-leeds.ac.uk.Memoru";
@@ -505,6 +541,7 @@
 				94CA54901FBA41BA001FB461 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94CA54911FBA41BA001FB461 /* Build configuration list for PBXNativeTarget "MemoruTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +550,7 @@
 				94CA54931FBA41BA001FB461 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94CA54941FBA41BA001FB461 /* Build configuration list for PBXNativeTarget "MemoruUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +559,7 @@
 				94CA54961FBA41BA001FB461 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
