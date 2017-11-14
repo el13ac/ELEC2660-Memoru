@@ -55,24 +55,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="pkz-7y-pmg"/>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search location..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cd2-tm-gnA">
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="t4h-Qn-EVV">
                                 <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="pkz-7y-pmg" firstAttribute="leading" secondItem="Tiv-2i-4sK" secondAttribute="leading" id="1Xm-Q5-rSg"/>
-                            <constraint firstItem="Cd2-tm-gnA" firstAttribute="trailing" secondItem="Tiv-2i-4sK" secondAttribute="trailingMargin" id="2Fq-FZ-K4d"/>
-                            <constraint firstItem="Cd2-tm-gnA" firstAttribute="top" secondItem="Z9b-h6-NsM" secondAttribute="bottom" constant="34" id="Dbi-Qf-D9C"/>
+                            <constraint firstAttribute="trailing" secondItem="t4h-Qn-EVV" secondAttribute="trailing" id="H8z-P0-eez"/>
                             <constraint firstAttribute="trailing" secondItem="pkz-7y-pmg" secondAttribute="trailing" id="Juq-23-d0X"/>
-                            <constraint firstItem="Cd2-tm-gnA" firstAttribute="leading" secondItem="Tiv-2i-4sK" secondAttribute="leadingMargin" id="MrY-V4-yAj"/>
                             <constraint firstItem="NYR-fv-CHn" firstAttribute="top" secondItem="pkz-7y-pmg" secondAttribute="bottom" id="PMu-CW-Cc5"/>
                             <constraint firstItem="pkz-7y-pmg" firstAttribute="top" secondItem="Z9b-h6-NsM" secondAttribute="bottom" id="PSG-cf-P4I"/>
                             <constraint firstAttribute="trailing" secondItem="pkz-7y-pmg" secondAttribute="trailing" id="RNG-Rl-ap9"/>
+                            <constraint firstItem="t4h-Qn-EVV" firstAttribute="leading" secondItem="Tiv-2i-4sK" secondAttribute="leading" id="c1w-P3-weG"/>
+                            <constraint firstItem="NYR-fv-CHn" firstAttribute="top" secondItem="t4h-Qn-EVV" secondAttribute="bottom" constant="559" id="fHz-aM-vBP"/>
                             <constraint firstItem="pkz-7y-pmg" firstAttribute="leading" secondItem="Tiv-2i-4sK" secondAttribute="leading" id="iVk-55-DEu"/>
                             <constraint firstItem="NYR-fv-CHn" firstAttribute="top" secondItem="pkz-7y-pmg" secondAttribute="bottom" id="itl-vc-2n9"/>
+                            <constraint firstItem="t4h-Qn-EVV" firstAttribute="top" secondItem="Z9b-h6-NsM" secondAttribute="bottom" id="iw1-uk-B9Q"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QHj-hJ-O0q">
@@ -87,6 +86,46 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bmb-sr-rgX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2914.4000000000001" y="157.87106446776613"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gpg-VS-bpF">
+            <objects>
+                <viewController id="6Xc-X6-Frh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PUW-ZS-fcK"/>
+                        <viewControllerLayoutGuide type="bottom" id="dA1-aP-wzu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8kB-UZ-0j8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lql-8O-2Ol">
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOI-aJ-wsM">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="OOI-aJ-wsM" secondAttribute="trailing" constant="151" id="2HG-A2-vBN"/>
+                            <constraint firstItem="dA1-aP-wzu" firstAttribute="top" secondItem="Lql-8O-2Ol" secondAttribute="bottom" constant="388" id="Beq-ge-gxI"/>
+                            <constraint firstItem="OOI-aJ-wsM" firstAttribute="leading" secondItem="8kB-UZ-0j8" secondAttribute="leadingMargin" constant="150" id="R3t-Z0-xHM"/>
+                            <constraint firstItem="Lql-8O-2Ol" firstAttribute="top" secondItem="OOI-aJ-wsM" secondAttribute="bottom" constant="16" id="hEM-yf-Nvg"/>
+                            <constraint firstItem="Lql-8O-2Ol" firstAttribute="top" secondItem="OOI-aJ-wsM" secondAttribute="bottom" constant="16" id="hpW-PV-F5A"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Lql-8O-2Ol" secondAttribute="trailing" constant="40" id="oIr-Cp-npB"/>
+                            <constraint firstItem="OOI-aJ-wsM" firstAttribute="top" secondItem="PUW-ZS-fcK" secondAttribute="bottom" constant="192" id="uHg-Fy-7Bd"/>
+                            <constraint firstItem="Lql-8O-2Ol" firstAttribute="leading" secondItem="8kB-UZ-0j8" secondAttribute="leadingMargin" constant="39" id="unF-14-fbp"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TFk-uy-T4L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3812" y="156.97151424287858"/>
         </scene>
         <!--Reminders Navigation Controller-->
         <scene sceneID="jfi-Dw-WS2">
