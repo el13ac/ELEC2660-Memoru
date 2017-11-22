@@ -30,13 +30,15 @@
                             <outlet property="delegate" destination="xll-Sq-Ytv" id="Rg9-OG-6jd"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Reminders" id="3IL-hY-lOr">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="yOz-Ex-tPV">
+                    <toolbarItems>
+                        <barButtonItem systemItem="add" id="yOz-Ex-tPV">
                             <connections>
-                                <segue destination="yyA-oc-vWh" kind="presentation" id="eiU-u6-379"/>
+                                <segue destination="yyA-oc-vWh" kind="presentation" id="CVf-zp-lMe"/>
                             </connections>
                         </barButtonItem>
-                    </navigationItem>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="Reminders" id="3IL-hY-lOr"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vna-Iz-gBD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -54,7 +56,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="pkz-7y-pmg"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="hybrid" pitchEnabled="NO" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pkz-7y-pmg"/>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="t4h-Qn-EVV">
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
@@ -75,17 +77,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QHj-hJ-O0q">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="4xy-HB-hKk">
-                            <connections>
-                                <segue destination="1cS-3o-oDf" kind="presentation" id="tfg-Of-xxJ"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="4xy-HB-hKk"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="JRh-9F-qIO"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bmb-sr-rgX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2914.4000000000001" y="157.87106446776613"/>
+            <point key="canvasLocation" x="2908" y="150"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gpg-VS-bpF">
@@ -156,12 +154,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="VSo-Tb-0HI" kind="relationship" relationship="rootViewController" id="VjQ-wo-KVF"/>
+                        <segue destination="VSo-Tb-0HI" kind="presentation" id="pXi-Gu-x9U"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="47Z-VZ-PkZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1975.2" y="157.87106446776613"/>
+            <point key="canvasLocation" x="1974" y="150"/>
         </scene>
     </scenes>
 </document>
