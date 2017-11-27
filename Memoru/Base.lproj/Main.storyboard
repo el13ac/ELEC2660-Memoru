@@ -30,14 +30,14 @@
                             <outlet property="delegate" destination="xll-Sq-Ytv" id="Rg9-OG-6jd"/>
                         </connections>
                     </tableView>
-                    <toolbarItems>
-                        <barButtonItem systemItem="add" id="yOz-Ex-tPV">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Reminders" id="3IL-hY-lOr">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="yOz-Ex-tPV">
                             <connections>
                                 <segue destination="yyA-oc-vWh" kind="presentation" id="CVf-zp-lMe"/>
                             </connections>
                         </barButtonItem>
-                    </toolbarItems>
-                    <navigationItem key="navigationItem" title="Reminders" id="3IL-hY-lOr"/>
+                    </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vna-Iz-gBD" userLabel="First Responder" sceneMemberID="firstResponder"/>
