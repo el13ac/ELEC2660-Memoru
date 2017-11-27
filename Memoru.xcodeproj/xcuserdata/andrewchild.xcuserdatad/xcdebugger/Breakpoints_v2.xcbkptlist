@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Memoru/ViewController.m"
-            timestampString = "532310314.209126"
+            timestampString = "533485353.340665"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "@implementation ViewController"
             landmarkType = "3">
          </BreakpointContent>

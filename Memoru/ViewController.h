@@ -15,10 +15,14 @@
 
 
 
-@interface ViewController : UIViewController{
-    CLLocationManager *checkLocation;
-}
+@interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet MKMapView *searchMapView;
+
+
+
+    
+    
 
 @end
 
