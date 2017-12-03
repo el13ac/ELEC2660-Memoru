@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94410E401FD46C9D00C2D2DC /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94410E3F1FD46C9D00C2D2DC /* MapViewController.m */; };
 		94AB56D91FBAEB5D00C0E3A9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AB56D81FBAEB5D00C0E3A9 /* CoreLocation.framework */; };
 		94CA54661FBA41BA001FB461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CA54651FBA41BA001FB461 /* main.m */; };
 		94CA54691FBA41BA001FB461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CA54681FBA41BA001FB461 /* AppDelegate.m */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94410E3E1FD46C9D00C2D2DC /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		94410E3F1FD46C9D00C2D2DC /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		94AB56D81FBAEB5D00C0E3A9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		94CA54611FBA41B9001FB461 /* Memoru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memoru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CA54651FBA41BA001FB461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -122,6 +125,8 @@
 				94CA546A1FBA41BA001FB461 /* ViewController.h */,
 				94CA546B1FBA41BA001FB461 /* ViewController.m */,
 				94CA546D1FBA41BA001FB461 /* Main.storyboard */,
+				94410E3E1FD46C9D00C2D2DC /* MapViewController.h */,
+				94410E3F1FD46C9D00C2D2DC /* MapViewController.m */,
 				94CA54701FBA41BA001FB461 /* Assets.xcassets */,
 				94CA54721FBA41BA001FB461 /* LaunchScreen.storyboard */,
 				94CA54751FBA41BA001FB461 /* Info.plist */,
@@ -310,6 +315,7 @@
 				94CA546C1FBA41BA001FB461 /* ViewController.m in Sources */,
 				94CA54691FBA41BA001FB461 /* AppDelegate.m in Sources */,
 				94CA54661FBA41BA001FB461 /* main.m in Sources */,
+				94410E401FD46C9D00C2D2DC /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
