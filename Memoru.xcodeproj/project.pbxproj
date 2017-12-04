@@ -7,21 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		941FEB141FD57BEE00265CEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 941FEB131FD57BEE00265CEB /* ViewController.m */; };
 		94410E401FD46C9D00C2D2DC /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94410E3F1FD46C9D00C2D2DC /* MapViewController.m */; };
 		94410E431FD4702A00C2D2DC /* LocationFenceAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 94410E421FD4702A00C2D2DC /* LocationFenceAnnotation.m */; };
 		94AB56D91FBAEB5D00C0E3A9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AB56D81FBAEB5D00C0E3A9 /* CoreLocation.framework */; };
 		94CA54661FBA41BA001FB461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CA54651FBA41BA001FB461 /* main.m */; };
 		94CA54691FBA41BA001FB461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CA54681FBA41BA001FB461 /* AppDelegate.m */; };
-		94CA546C1FBA41BA001FB461 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CA546B1FBA41BA001FB461 /* ViewController.m */; };
 		94CA546F1FBA41BA001FB461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94CA546D1FBA41BA001FB461 /* Main.storyboard */; };
 		94CA54711FBA41BA001FB461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94CA54701FBA41BA001FB461 /* Assets.xcassets */; };
 		94CA54741FBA41BA001FB461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94CA54721FBA41BA001FB461 /* LaunchScreen.storyboard */; };
 		94CA547F1FBA41BA001FB461 /* MemoruTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CA547E1FBA41BA001FB461 /* MemoruTests.m */; };
 		94CA548A1FBA41BA001FB461 /* MemoruUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CA54891FBA41BA001FB461 /* MemoruUITests.m */; };
 		94CA54991FBA4302001FB461 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CA54981FBA4302001FB461 /* MapKit.framework */; };
-		94CA549D1FBA5D78001FB461 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CA549C1FBA5D78001FB461 /* UserNotificationsUI.framework */; };
-		94CA549F1FBA5D80001FB461 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CA549E1FBA5D80001FB461 /* UserNotifications.framework */; };
-		94CA54A11FBA5D86001FB461 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CA54A01FBA5D86001FB461 /* NotificationCenter.framework */; };
+		94D6E4C51FD4B10700790484 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D6E4C41FD4B10700790484 /* EventKitUI.framework */; };
+		94D6E4C71FD4B11700790484 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D6E4C61FD4B11700790484 /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		941FEB121FD57BEE00265CEB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		941FEB131FD57BEE00265CEB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		94410E3E1FD46C9D00C2D2DC /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		94410E3F1FD46C9D00C2D2DC /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		94410E411FD4702A00C2D2DC /* LocationFenceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationFenceAnnotation.h; sourceTree = "<group>"; };
@@ -51,8 +52,6 @@
 		94CA54651FBA41BA001FB461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		94CA54671FBA41BA001FB461 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		94CA54681FBA41BA001FB461 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		94CA546A1FBA41BA001FB461 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		94CA546B1FBA41BA001FB461 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		94CA546E1FBA41BA001FB461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94CA54701FBA41BA001FB461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94CA54731FBA41BA001FB461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,6 +66,8 @@
 		94CA549C1FBA5D78001FB461 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		94CA549E1FBA5D80001FB461 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		94CA54A01FBA5D86001FB461 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		94D6E4C41FD4B10700790484 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		94D6E4C61FD4B11700790484 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +75,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94D6E4C71FD4B11700790484 /* AddressBookUI.framework in Frameworks */,
+				94D6E4C51FD4B10700790484 /* EventKitUI.framework in Frameworks */,
 				94AB56D91FBAEB5D00C0E3A9 /* CoreLocation.framework in Frameworks */,
-				94CA54A11FBA5D86001FB461 /* NotificationCenter.framework in Frameworks */,
-				94CA549F1FBA5D80001FB461 /* UserNotifications.framework in Frameworks */,
-				94CA549D1FBA5D78001FB461 /* UserNotificationsUI.framework in Frameworks */,
 				94CA54991FBA4302001FB461 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,13 +125,13 @@
 			children = (
 				94CA54671FBA41BA001FB461 /* AppDelegate.h */,
 				94CA54681FBA41BA001FB461 /* AppDelegate.m */,
-				94CA546A1FBA41BA001FB461 /* ViewController.h */,
-				94CA546B1FBA41BA001FB461 /* ViewController.m */,
 				94CA546D1FBA41BA001FB461 /* Main.storyboard */,
-				94410E411FD4702A00C2D2DC /* LocationFenceAnnotation.h */,
-				94410E421FD4702A00C2D2DC /* LocationFenceAnnotation.m */,
+				941FEB121FD57BEE00265CEB /* ViewController.h */,
+				941FEB131FD57BEE00265CEB /* ViewController.m */,
 				94410E3E1FD46C9D00C2D2DC /* MapViewController.h */,
 				94410E3F1FD46C9D00C2D2DC /* MapViewController.m */,
+				94410E411FD4702A00C2D2DC /* LocationFenceAnnotation.h */,
+				94410E421FD4702A00C2D2DC /* LocationFenceAnnotation.m */,
 				94CA54701FBA41BA001FB461 /* Assets.xcassets */,
 				94CA54721FBA41BA001FB461 /* LaunchScreen.storyboard */,
 				94CA54751FBA41BA001FB461 /* Info.plist */,
@@ -169,6 +169,8 @@
 		94CA54971FBA4302001FB461 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				94D6E4C61FD4B11700790484 /* AddressBookUI.framework */,
+				94D6E4C41FD4B10700790484 /* EventKitUI.framework */,
 				94AB56D81FBAEB5D00C0E3A9 /* CoreLocation.framework */,
 				94CA54A01FBA5D86001FB461 /* NotificationCenter.framework */,
 				94CA549E1FBA5D80001FB461 /* UserNotifications.framework */,
@@ -317,7 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94CA546C1FBA41BA001FB461 /* ViewController.m in Sources */,
+				941FEB141FD57BEE00265CEB /* ViewController.m in Sources */,
 				94CA54691FBA41BA001FB461 /* AppDelegate.m in Sources */,
 				94410E431FD4702A00C2D2DC /* LocationFenceAnnotation.m in Sources */,
 				94CA54661FBA41BA001FB461 /* main.m in Sources */,

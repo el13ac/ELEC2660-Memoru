@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NCw-MT-Gta" id="glC-lu-NMr">
-                                    <frame key="frameInset" width="375" height="43"/>
+                                    <frame key="frameInset" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -55,16 +55,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="hybrid" pitchEnabled="NO" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EHd-VC-IJR">
-                                <frame key="frameInset" width="1000" height="1000"/>
-                            </mapView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="cXN-eI-Ry6"/>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Smp-tV-U8R" firstAttribute="top" secondItem="EHd-VC-IJR" secondAttribute="bottom" id="6ej-ff-Z0u"/>
-                            <constraint firstAttribute="trailing" secondItem="EHd-VC-IJR" secondAttribute="trailing" id="TPA-Gp-JBG"/>
-                            <constraint firstItem="EHd-VC-IJR" firstAttribute="leading" secondItem="Vch-TG-2i9" secondAttribute="leading" id="cwi-nX-S4p"/>
-                            <constraint firstItem="EHd-VC-IJR" firstAttribute="top" secondItem="Vch-TG-2i9" secondAttribute="top" id="fwf-SY-Pdz"/>
+                            <constraint firstAttribute="trailing" secondItem="cXN-eI-Ry6" secondAttribute="trailing" id="3gY-hH-gOo"/>
+                            <constraint firstItem="cXN-eI-Ry6" firstAttribute="leading" secondItem="Vch-TG-2i9" secondAttribute="leading" id="XH1-6j-JU5"/>
+                            <constraint firstItem="Smp-tV-U8R" firstAttribute="top" secondItem="cXN-eI-Ry6" secondAttribute="bottom" id="dR7-fg-37X"/>
+                            <constraint firstItem="cXN-eI-Ry6" firstAttribute="top" secondItem="DZf-l4-N15" secondAttribute="bottom" id="eBi-b2-5WO"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="x9W-Pd-VKX">
