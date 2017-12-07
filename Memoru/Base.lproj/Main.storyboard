@@ -9,7 +9,7 @@
         <!--Reminders-->
         <scene sceneID="9HL-Bi-sCQ">
             <objects>
-                <tableViewController id="SBb-He-wZn" sceneMemberID="viewController">
+                <tableViewController id="SBb-He-wZn" customClass="ReminderTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="G4v-cQ-w5n">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -55,7 +55,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="cXN-eI-Ry6"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="hybrid" pitchEnabled="NO" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cXN-eI-Ry6">
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ujg-kM-2qi" appends="YES" id="eTB-WQ-e4J"/>
+                                </connections>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -65,7 +70,7 @@
                             <constraint firstItem="cXN-eI-Ry6" firstAttribute="top" secondItem="DZf-l4-N15" secondAttribute="bottom" id="eBi-b2-5WO"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="x9W-Pd-VKX">
+                    <navigationItem key="navigationItem" title="Long Press A Location" id="x9W-Pd-VKX">
                         <barButtonItem key="leftBarButtonItem" systemItem="stop" id="RQ2-G4-6EZ">
                             <color key="tintColor" red="0.95686274770000002" green="0.47039843860000002" blue="0.92189826050000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
@@ -73,8 +78,16 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="cXN-eI-Ry6" id="Mb8-7L-LW4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qks-4a-8ZU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="ujg-kM-2qi">
+                    <connections>
+                        <action selector="longPress:" destination="Isa-9U-ynE" id="yK5-wy-XOe"/>
+                    </connections>
+                </pongPressGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="3349.5999999999999" y="-16.641679160419791"/>
         </scene>

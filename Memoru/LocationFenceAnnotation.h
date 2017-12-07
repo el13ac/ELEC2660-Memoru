@@ -17,18 +17,13 @@
 #import <EventKit/EventKit.h>
 #import <MapKit/MapKit.h>
 
-@interface LocationFenceAnnotation : NSObject <MKAnnotation>
+@interface LocationFenceAnnotation : NSObject <MKAnnotation> // class is an NSObject
 
--(instancetype)initWithCoordiate:(CLLocationCoordinate2D)coordinate title:(NSString*)title subtitle:(NSString*)subtitle;
+-(id)initWithCoordiate:(CLLocationCoordinate2D)coordinate title:(NSString*)title subtitle:(NSString*)subtitle;
 
 @property (nonatomic, copy) NSString *title; // title of Location set as NSString
 @property (nonatomic, copy) NSString *subtitle; // subtitle of address set as NSString
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate; // two distinct sets of data formatted as latitude followed by logtitude
 
-@property (nonatomic, assign) BOOL locationInfoStored; // returns yes if true
-
-@property (nonatomic, assign) EKAlarmProximity  proximity; // can detect when mobile device enters or exits a geo-fenced location
-
-@property (nonatomic, strong) EKReminder *reminder; // event reminder
 
 @end

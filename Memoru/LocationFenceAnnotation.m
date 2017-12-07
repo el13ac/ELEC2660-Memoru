@@ -18,9 +18,9 @@
 
 @end
 
-@implementation LocationFenceAnnotation // this implementation returns the location coordinate and location name information arranged in the order seen below
+@implementation LocationFenceAnnotation // this class will take the values of the location coordinate and location address name information and return them in the format seen below
 
--(instancetype)initWithCoordiate:(CLLocationCoordinate2D)coordinate title:(NSString*)title subtitle:(NSString*)subtitle
+-(id)initWithCoordiate:(CLLocationCoordinate2D)coordinate title:(NSString*)title subtitle:(NSString*)subtitle
 {
     self = [super init];
     if (self)
