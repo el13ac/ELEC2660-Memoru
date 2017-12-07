@@ -14,7 +14,7 @@
 #import <EventKit/EventKit.h>
 #import <MapKit/MapKit.h>
 
-@interface LocationFenceAnnotation : NSObject <MKAnnotation>
+@interface LocationAnnotation : NSObject <MKAnnotation>
 
 // class is an NSObject
 

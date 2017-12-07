@@ -6,12 +6,12 @@
 //  Copyright © 2017 Leeds University. All rights reserved.
 //
 
-// Contains and returns location coordinates as well as address
+// Contains and returns location coordinates as well as address title and subtitle
 
 
-#import "LocationFenceAnnotation.h"
+#import "LocationAnnotation.h"
 
-@interface LocationFenceAnnotation()
+@interface LocationAnnotation()
 
 @property (nonatomic, readwrite) CLLocationCoordinate2D coordinate;
 
@@ -19,9 +19,9 @@
 
 @end
 
-@implementation LocationFenceAnnotation
+@implementation LocationAnnotation
 
-// this class will take the values of the location coordinate and location address name information and return them in the format seen below
+// this class will take the values of the location coordinates (latitude and longtitude) as well as location address names and return a single variable with containing this information
 
 -(id)initWithCoordiate:(CLLocationCoordinate2D)coordinate title:(NSString*)title subtitle:(NSString*)subtitle
 {

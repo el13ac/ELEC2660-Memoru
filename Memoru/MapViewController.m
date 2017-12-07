@@ -7,7 +7,6 @@
 //
 
 #import "MapViewController.h"
-#import "LocationFenceAnnotation.h"
 #import <AddressBookUI/AddressBookUI.h>
 
 
@@ -46,7 +45,7 @@
     
     [_mapView setRegion:MKCoordinateRegionMakeWithDistance(userLocation.location.coordinate,800,800) animated:YES];
     
-    // zooms in on users location upon loading
+    // creates region from user location and zooms in upon loading
     
     MKPointAnnotation *initialMessage = [[MKPointAnnotation alloc]init];
     
@@ -84,16 +83,16 @@
         if (self.annotationForReminder)
         {
             [self.mapView removeAnnotation:self.annotationForReminder];
-            
-            // removes any previous pins on display
-            
         }
-        self.annotationForReminder = [[LocationFenceAnnotation alloc] initWithCoordiate:coordinate
+        
+        // removes any previous pins on display
+        
+        self.annotationForReminder = [[LocationAnnotation alloc] initWithCoordiate:coordinate
                                       
                 title:NSLocalizedString(@"Add Reminder", @"Add Reminder ")
                 subtitle:nil];
         
-        // creates new pin annotation with coordinates
+        // creates new pin annotation with pressed coordinates
         
         [_mapView addAnnotation:_annotationForReminder];
         

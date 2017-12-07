@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
-#import "LocationFenceAnnotation.h"
+#import "LocationAnnotation.h"
 
 
 
@@ -16,15 +16,11 @@
 
 @interface MapViewController : UIViewController <MKMapViewDelegate>
 
-@property (strong , nonatomic)NSString *pinTintColour;
 
-@property (weak, nonatomic) IBOutlet MKMapView *mapView;
-@property (strong, nonatomic) LocationFenceAnnotation *annotationForReminder;
-@property (strong, nonatomic) CLGeocoder *annotationGeocoder;
-
-
-
+@property (strong, nonatomic) LocationAnnotation *annotationForReminder;
 @property(strong, nonatomic) UIColor *pinTintColor;
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
+
 
 - (IBAction)longPress:(UILongPressGestureRecognizer *)pressLong;
 

@@ -21,9 +21,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+
+#pragma mark - request always in use location authorisation
     
     requestAlwaysLocation = [[CLLocationManager alloc]init];
     [requestAlwaysLocation requestAlwaysAuthorization];
+    
     // requests access to location data at all times
 
     

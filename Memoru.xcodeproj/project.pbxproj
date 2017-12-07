@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		94410E401FD46C9D00C2D2DC /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94410E3F1FD46C9D00C2D2DC /* MapViewController.m */; };
-		94410E431FD4702A00C2D2DC /* LocationFenceAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 94410E421FD4702A00C2D2DC /* LocationFenceAnnotation.m */; };
+		94410E431FD4702A00C2D2DC /* LocationAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 94410E421FD4702A00C2D2DC /* LocationAnnotation.m */; };
 		94AB56D91FBAEB5D00C0E3A9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AB56D81FBAEB5D00C0E3A9 /* CoreLocation.framework */; };
 		94CA54661FBA41BA001FB461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CA54651FBA41BA001FB461 /* main.m */; };
 		94CA54691FBA41BA001FB461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CA54681FBA41BA001FB461 /* AppDelegate.m */; };
@@ -45,8 +45,8 @@
 /* Begin PBXFileReference section */
 		94410E3E1FD46C9D00C2D2DC /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		94410E3F1FD46C9D00C2D2DC /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		94410E411FD4702A00C2D2DC /* LocationFenceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationFenceAnnotation.h; sourceTree = "<group>"; };
-		94410E421FD4702A00C2D2DC /* LocationFenceAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationFenceAnnotation.m; sourceTree = "<group>"; };
+		94410E411FD4702A00C2D2DC /* LocationAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAnnotation.h; sourceTree = "<group>"; };
+		94410E421FD4702A00C2D2DC /* LocationAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAnnotation.m; sourceTree = "<group>"; };
 		94AB56D81FBAEB5D00C0E3A9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		94CA54611FBA41B9001FB461 /* Memoru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memoru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CA54651FBA41BA001FB461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -136,8 +136,8 @@
 				94E2BACA1FD57FC100216352 /* ReminderTableViewController.m */,
 				94410E3E1FD46C9D00C2D2DC /* MapViewController.h */,
 				94410E3F1FD46C9D00C2D2DC /* MapViewController.m */,
-				94410E411FD4702A00C2D2DC /* LocationFenceAnnotation.h */,
-				94410E421FD4702A00C2D2DC /* LocationFenceAnnotation.m */,
+				94410E411FD4702A00C2D2DC /* LocationAnnotation.h */,
+				94410E421FD4702A00C2D2DC /* LocationAnnotation.m */,
 				94CA54701FBA41BA001FB461 /* Assets.xcassets */,
 				94CA54721FBA41BA001FB461 /* LaunchScreen.storyboard */,
 				94CA54751FBA41BA001FB461 /* Info.plist */,
@@ -329,7 +329,7 @@
 			files = (
 				94E2BACB1FD57FC100216352 /* ReminderTableViewController.m in Sources */,
 				94CA54691FBA41BA001FB461 /* AppDelegate.m in Sources */,
-				94410E431FD4702A00C2D2DC /* LocationFenceAnnotation.m in Sources */,
+				94410E431FD4702A00C2D2DC /* LocationAnnotation.m in Sources */,
 				94CA54661FBA41BA001FB461 /* main.m in Sources */,
 				94410E401FD46C9D00C2D2DC /* MapViewController.m in Sources */,
 			);
